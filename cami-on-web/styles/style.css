@@ -21,23 +21,11 @@ body {
     font-family: 'Ubuntu', sans-serif;
     padding: 0px;
     color: white;
-    /*text-shadow: 2px 2px 5px black;*/
     background-color: black;
-    /* background-color: black; */
 
-    background-image: url("../img/bg01.jpg");
-    background-color: rgba(0,0,0,1);
+    background-image: url("../img/bg02.jpg");
     background-size: cover;
 }
-
-/*.fondo {
-    height: 1000px;
-    background-image: url("../img/bg01.2.jpg");
-    background-size: cover;
-    background-repeat: repeat;
-    padding: 10px;*/
-    /* opacity: 0.5; */
-/*}*/
 
 .content {
     text-align: center;
@@ -47,6 +35,7 @@ body {
     margin-left: auto;
     margin-top: 58px;
     padding: 10px;
+    text-shadow: 2px 2px 2px #000000;
 }
 
 .buscador {
