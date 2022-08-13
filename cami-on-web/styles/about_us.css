@@ -1,16 +1,16 @@
 .portrait{
-    border-radius: 0.1em;
+    border-radius: 50%;
     height: 100%;
     width: auto;
 }
 
 .info{
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 0.1em;
-    color: white;
+    background-color: rgba(0, 0, 0, 0.452);
+    border-radius: 0.2em;
+    color: rgb(255, 255, 255);
     padding: 10px;
+    vertical-align: text-top;
 }
-
 
 table{
     padding-bottom: 15px;
