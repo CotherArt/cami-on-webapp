@@ -1,0 +1,22 @@
+.portrait{
+    border-radius: 0.5em;
+}
+
+.info{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.5em;
+    color: white;
+}
+
+
+table{
+    border-spacing: 20px;
+    border-collapse: separate;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.info{
+    padding: 10px;
+}

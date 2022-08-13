@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+header {
+    text-align: right;
+}
+
+.header_img {
+    width: 100%;
+}
+
+.media {
+    width: 5%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 8px;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0px;
+    color: white;
+    /*text-shadow: 2px 2px 5px black;*/
+    background-color: black;
+    /* background-color: black; */
+
+    background-image: url("../img/bg01.jpg");
+    background-color: rgba(0,0,0,1);
+    background-size: cover;
+}
+
+/*.fondo {
+    height: 1000px;
+    background-image: url("../img/bg01.2.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    padding: 10px;*/
+    /* opacity: 0.5; */
+/*}*/
+
+.content {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.buscador {
+    margin-left: 10%;
+    margin-right: 10%;
+}
