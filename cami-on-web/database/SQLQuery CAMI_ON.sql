@@ -1,5 +1,21 @@
  create database CAMI_ON
  use CAMI_ON
+ 
+create table Usuarios(
+	id_usuarios int identity(1,1) primary key,
+	nombre varchar(10) not null,
+	correo varchar(30) not null,
+	contrasenia varchar(50) not null
+);
+
+--Crear procedimiento almacenado, al cual le llegan dos parametros desde la aplicacion: el usuario y la contrasenia ingresado por el usuario.
+create procedure autentication
+	@usuario varchar(10),
+	@contrasenia varchar(50)
+as
+begin
+	select nombre from Usuarios where @usuario = nombre and @contrasenia = contrasenia
+end
 
 create table Horario(
 	id_horario int identity (1,1) primary key,
@@ -83,4 +99,3 @@ create table Vehiculo(
 	serie varchar (10) not null,
 	CONSTRAINT fk_ruta4 FOREIGN KEY(id_ruta) REFERENCES Ruta (id_ruta)
 );
-

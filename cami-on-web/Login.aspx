@@ -14,10 +14,13 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            User:<input id="inUser" type="text" /><br />
-            Password:<input id="inPassword" type="text" /><br />
+            User:<asp:TextBox ID="tbUsuario" runat="server"></asp:TextBox>
             <br />
-            <input id="Submit" type="button" value="Submit" /></div>
+            Password:<asp:TextBox ID="tbPassword" runat="server"></asp:TextBox>
+            <br />
+            <asp:Button ID="btnLogin" runat="server" OnClick="btnLogin_Click" Text="Log-in" />
+            <br />
+            </div>
     </form>
     <p>
         &nbsp;</p>
