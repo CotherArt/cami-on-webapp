@@ -23,3 +23,7 @@ table{
 .content {
     max-width: 900px;
 }
+
+h3{
+    font-size: small;
+}
